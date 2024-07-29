@@ -1,0 +1,189 @@
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    margin-right: 20px;
+
+  }
+  html{
+    background-image: url(../images/bats.gif);
+  }
+  header,footer{
+    border : 800px 5px 800px 5px;
+    border-color: black;
+    border-style:solid;
+    border-width: 3px;
+    /*box-shadow: 0 9px 18px 9px; ! */
+  }
+
+
+ 
+    header {
+      background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+      background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+      background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+      background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+      padding: .9375em 1.875% .9375em 1.875%;  /* 15 / 16; 15 / 800 x 100 */
+      margin-bottom: 0px;
+  } 
+
+  footer{
+        clear: both;
+        text-align: center;
+        background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+        background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+        background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+        background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    } 
+  
+  body{
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 20px;
+    width:1200px;
+    height:100%;
+    margin:auto;
+    border: 3px solid black;
+	  border-style: solid;
+	  box-shadow: 0 9px 18px 9px;
+   
+  }
+  main{
+    width:800px;
+    height:100%;
+    float:right;
+    border-right: 2px solid black;
+    }
+  aside{
+    width:300px;
+    margin-right: 0px;
+    padding-top: 35px;
+    float:left;
+  }
+
+  .header h2 {
+    position: top;
+    font-size: 50px;
+    padding: 0px;
+    margin:0px;
+  }
+  #catimg{
+    display: block;
+  }
+  
+  #header4{
+    font-style:normal;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    padding-left: 180px;
+    padding: 0px;
+    margin:0px;
+  }
+  h1:first-letter {
+    text-transform: uppercase;
+    font-size: 80px;
+    padding-right: 0px;
+}
+#headingInBody{
+  font-size: 35px;
+}
+#productId{
+  font-size: 22px;
+}
+#para,#lastPara{
+  font-size: 18px;
+}
+
+#bottom{
+    align-items: center;
+}
+a{
+  color:orange
+}
+li{
+  padding-bottom: 5px;
+}
+a:hover{
+  color:green
+}
+ul{
+margin:15px;
+}
+#nav_menu ul {
+  list-style-type: none;
+  position:relative;
+  padding: 3px;
+  margin:0;
+  background-color: black;
+}
+#nav_menu ul li {
+  float:left;
+  display: inline;
+  padding: 0 60px;
+  color:azure;
+}
+.secondlist {
+  list-style: none;
+  margin:0;
+  padding:0;
+  position:absolute;
+  display: none;
+}
+.secondlist li{
+   margin-top: 0;
+   margin-bottom : 10px;
+}
+
+#nav_menu ul ul{
+  display:none;
+  position:absolute;
+  top:100%;
+}
+#nav_menu ul ul li{
+  float : none;
+  display:block;
+}
+
+#nav_menu ul li:hover > ul {
+  display:block;
+  margin-top:0;
+  padding-top:0;
+}
+#nav_menu ul li li:hover{
+  margin-top: 0;
+  display:block;
+  padding-bottom: 0px;
+  background-color: grey;
+}
+
+#nav_menu>ul::after{
+  content: "";
+  display: block;
+  clear:both;
+}
+#nav_menu ul li a{
+  font-weight: bold;
+  color: beige;
+  text-decoration: none;
+  }
+  aside ul.links li{
+    list-style: none;
+  }
+
+aside ul.links li a {
+  list-style: none;
+  display: block;
+  border:5px solid black;
+  padding:4px;
+  margin:3px 0;
+  font-weight: bold;
+  text-align: left;
+  color: black;           /* Text color */
+  text-decoration: none;  /* Remove underline */
+  background-color: orange; /* Background color */
+}
+    
